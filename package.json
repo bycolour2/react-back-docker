@@ -14,6 +14,7 @@
   "author": "Andrew Troitskiy",
   "license": "ISC",
   "devDependencies": {
+    "@architect/sandbox": "^5.4.1",
     "@types/bcrypt": "^5.0.0",
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
