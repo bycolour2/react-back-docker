@@ -23,7 +23,7 @@ export const socket = new Server(server, {
     origin: [
       "*",
       "http://localhost:3000",
-      "https://nikitakakurin-task-schelduler.netlify.app",
+      "https://nikitakakurin-taskshelduler-glitch.netlify.app",
     ],
   },
 });
@@ -33,7 +33,7 @@ app.use(
     origin: [
       "*",
       "http://localhost:3000",
-      "https://nikitakakurin-task-schelduler.netlify.app",
+      "https://nikitakakurin-taskshelduler-glitch.netlify.app",
     ],
     methods: ["GET", "POST", "DELETE", "UPDATE", "PUT", "PATCH"],
   })
