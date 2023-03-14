@@ -23,7 +23,8 @@ export const socket = new Server(server, {
     origin: [
       "*",
       "http://localhost:3000",
-      "https://nikitakakurin-taskshelduler-glitch.netlify.app",
+      "https://rocket-pma.onrender.com",
+      "https://my-project-magment-site.netlify.app",
     ],
   },
 });
@@ -33,7 +34,8 @@ app.use(
     origin: [
       "*",
       "http://localhost:3000",
-      "https://nikitakakurin-taskshelduler-glitch.netlify.app",
+      "https://rocket-pma.onrender.com",
+      "https://my-project-magment-site.netlify.app",
     ],
     methods: ["GET", "POST", "DELETE", "UPDATE", "PUT", "PATCH"],
   })
